@@ -72,3 +72,38 @@ footer {
   color: #888;
   margin-top: 40px;
 }
+
+.weapon-block {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+.weapon-block h2 {
+  color: #00f2ff;
+}
+.weapon-block p {
+  color: #bbb;
+}
+.weapon-variations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+.weapon-card {
+  background-color: #2a2a2a;
+  border-left: 4px solid #00f2ff;
+  padding: 15px;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+.weapon-card:hover {
+  transform: scale(1.03);
+}
+.weapon-card h3 {
+  margin-top: 0;
+  color: #ffcc00;
+}
+.weapon-card p {
+  color: #ccc;
+}
